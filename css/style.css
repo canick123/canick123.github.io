@@ -6,19 +6,21 @@ body {
     color: #cdc4d7;
 }
 
-#main {
+#main, #resume {
     font-size: 25px;
     color:#02143d;
     font-family: Gill Sans;
+    list-style: none;
+
 }
 
-#title {
+#title{
   font-size: 50px;
   color:#02143d;
  font-family: Andale Mono;
  }
 
- #caption {
+ #caption{
      font-size: 15px;
      color:#02143d;
      font-family: Gill Sans;
@@ -39,6 +41,30 @@ figure {
 
 .column {
   flex: 50%;
+}
+
+.navwrapper {
+  display: block;
+  background-color: none;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+
+}
+
+.navbar {
+  display: block;
+  background-color: none;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+  padding: 50px;
+  text-align: center;
 }
 
 .column-intro {
